@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.gift-site{
+  background: linear-gradient(119deg, #FF7982 0%, #FF8D53 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1200px;
+}
+
+header{
+  width: 1272px;
+  height: 124px;
+  flex-shrink: 0;
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+header ul{
+  display: flex;
+  margin-left: 26px;
+}
+
+header ul li {
+  list-style: none;
+  padding: 10px 21.03px 10px 20.97px;
+  gap: 10px;
+}
+
+header ul li:hover a, header ul li:hover .fa{
+  color:  #FF8E4F;
+}
+
+header ul li:hover{
+  border-bottom: 2px solid #FF8E4F;
+  border-radius: 1px;
+}
+
+header ul li .fa{
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: #09183f;
+  opacity: 0.7;
+}
+
+header ul li a{
+  color: #09183F;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+header div .fa{
+  margin-right: 40px;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+header div a{
+  margin-right: 40px;
+  color: #000;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+header div a:hover, header div .fa:hover{
+  color: #FF8E4F;
+}
+
+.btn{    
+  width: 115px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #FF748D 0%, #FF8E4F 100%);
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-right: 25px; 
+}
+
+
+/****************************************************/
+
+.intro{
+  width: 1272px;
+  height: 380px;
+  background-image: url(img/background-img.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  background-color: red;
+}
+
+.intro div{
+  width: 645px;
+  height: 319px;
+  border-radius: 10px;
+  background:  rgba(9, 24, 63, 0.5);
+  box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.intro div h1{
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 24px;
+  opacity: 1;
+}
+
+.intro div p{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 37px;
+}
+
+.intro div button{
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+
+/*************************************/
+.collection-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1272px;
+  height: 574px;
+  gap: 10px;
+  background: #F4F8FD;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.container h2{
+  color: #000;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 13px;
+}
+
+.container p{
+  color: #000;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.container button{
+  color: #09183F;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  border-radius: 50px;
+  border: 1px solid #09183F;
+  background: #FFF;
+  padding: 9px 31px;
+  margin-bottom: 40px;
+}
+
+.container img{
+  width: 100%;
+  height: auto;
+}
